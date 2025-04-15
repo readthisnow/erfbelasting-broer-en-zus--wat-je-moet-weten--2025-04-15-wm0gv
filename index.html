@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erfbelasting Broer en Zus - Wat je MOET weten | Notaris Online</title>
+    <meta name="description" content="Ontdek NU wat je MOET weten over erfbelasting voor broer en zus. Voorkom kostbare fouten! ⚡ Exclusieve tips van experts.">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-gray-50 font-sans antialiased">
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50" x-data="{ isOpen: false }">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="text-2xl font-bold text-blue-900">Notaris<span class="text-blue-600">Online</span></a>
+                
+                <button @click="isOpen = !isOpen" class="lg:hidden p-2 rounded-md">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                    </svg>
+                </button>
+
+                <div class="hidden lg:flex space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 transition-colors duration-300">Voordelen</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors duration-300">Contact</a>
+                    <a href="https://notarissen-online.nl/zun" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">Direct Regelen</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="pt-32 pb-24 bg-gradient-to-br from-blue-50 to-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-8">
+                        Erfbelasting Broer en Zus: <span class="text-blue-600">Wat je MOET weten!</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-600 mb-12">
+                        ⚠️ Voorkom dat je DUIZENDEN euro's misloopt door deze cruciale informatie te missen!
+                    </p>
+                    <a href="https://notarissen-online.nl/zun" class="inline-block bg-blue-600 text-white text-lg px-8 py-4 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                        Bekijk Nu De Mogelijkheden
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
+                    Waarom Je NIET Langer Kunt Wachten
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Tijd Dringt!</h3>
+                        <p class="text-gray-600">Elke dag uitstel kan je honderden euro's kosten. Ontdek direct je mogelijkheden!</p>
+                    </div>
+                    <!-- Add more feature cards here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
+                    Veelgestelde Vragen
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-6" x-data="{selected:null}">
+                    <div class="bg-white rounded-lg shadow-md">
+                        <button @click="selected !== 1 ? selected = 1 : selected = null" class="w-full p-6 text-left">
+                            <div class="flex items-center justify-between">
+                                <span class="text-lg font-semibold">Hoeveel erfbelasting moet ik betalen?</span>
+                                <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div x-show="selected === 1" class="px-6 pb-6">
+                            <p class="text-gray-600">Het exacte bedrag hangt af van verschillende factoren. Neem contact op voor een persoonlijk advies.</p>
+                        </div>
+                    </div>
+                    <!-- Add more FAQ items here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+                        Begin Vandaag Nog!
+                    </h2>
+                    <p class="text-xl text-gray-600 mb-12">
+                        ⚡ Wacht niet langer - neem direct contact op voor persoonlijk advies
+                    </p>
+                    <a href="mailto:info@notaris1.nl" class="text-blue-600 text-lg hover:text-blue-700 transition-colors duration-300">
+                        info@notaris1.nl
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">NotarisOnline</h3>
+                    <p class="text-gray-400">Professioneel advies voor uw erfbelasting vraagstukken.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <a href="mailto:info@notaris1.nl" class="text-gray-400 hover:text-white transition-colors duration-300">info@notaris1.nl</a>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Algemene Voorwaarden</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 NotarisOnline. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
